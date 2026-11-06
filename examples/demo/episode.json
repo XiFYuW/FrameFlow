@@ -1,0 +1,78 @@
+{
+  "id": "demo",
+  "index": 1,
+  "slug": "pipeline-demo",
+  "title": "Inside the Pipeline",
+  "theme": "A short demo of the render pipeline",
+  "brandSubtitle": "FrameFlow · Demo Reel",
+  "illustrationsDir": "demo",
+  "publish": {
+    "series": "FrameFlow Demo",
+    "episodeTitle": "Inside the Pipeline",
+    "titles": [
+      "How a video pipeline works",
+      "One script, four deliverables",
+      "Swap the pack, keep the pipeline"
+    ],
+    "content": "A short demo of the FrameFlow pipeline. Script data goes in; a timed video, subtitles, a transcript and publish copy come out. The renderer never hardcodes a topic.",
+    "hashtags": [
+      "video",
+      "automation",
+      "remotion",
+      "pipeline",
+      "opensource"
+    ],
+    "cta": "Star the repo and try your own content pack"
+  },
+  "script": {
+    "segments": [
+      {
+        "chapter": "One Script, Many Frames",
+        "startSec": 0,
+        "endSec": 18,
+        "lines": [
+          {
+            "text": "Every video starts as a single text file"
+          },
+          {
+            "text": "Scene count, duration and aspect ratio are config",
+            "em": [
+              "config"
+            ]
+          },
+          {
+            "text": "The renderer only reads that data",
+            "em": [
+              "renderer"
+            ]
+          },
+          {
+            "text": "Nothing about the topic is baked into the code"
+          }
+        ]
+      },
+      {
+        "chapter": "Swap The Pack",
+        "startSec": 18,
+        "endSec": 40,
+        "lines": [
+          {
+            "text": "Replace the content pack, keep every line of code"
+          },
+          {
+            "text": "Fonts, audio and artwork come from the pack",
+            "em": [
+              "pack"
+            ]
+          },
+          {
+            "text": "Optional visual modules are switched on in config"
+          },
+          {
+            "text": "Bring your own script and press render"
+          }
+        ]
+      }
+    ]
+  }
+}

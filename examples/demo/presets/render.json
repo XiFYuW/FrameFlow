@@ -1,0 +1,88 @@
+{
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "bpm": 96,
+  "crossfadeFrames": 32,
+  "sceneFilePattern": "scene_{n}.png",
+  "scenes": [
+    {
+      "index": 1,
+      "start": 0,
+      "end": 300,
+      "z0": 1,
+      "z1": 1.08,
+      "tx0": 0,
+      "tx1": 20,
+      "ty0": 0,
+      "ty1": -12
+    },
+    {
+      "index": 2,
+      "start": 300,
+      "end": 600,
+      "z0": 1.04,
+      "z1": 1,
+      "tx0": -16,
+      "tx1": 16,
+      "ty0": 10,
+      "ty1": -16
+    },
+    {
+      "index": 3,
+      "start": 600,
+      "end": 900,
+      "z0": 1,
+      "z1": 1.1,
+      "tx0": 18,
+      "tx1": -14,
+      "ty0": -8,
+      "ty1": 18
+    },
+    {
+      "index": 4,
+      "start": 900,
+      "end": 1245,
+      "z0": 1.02,
+      "z1": 1.06,
+      "tx0": 0,
+      "tx1": -20,
+      "ty0": 8,
+      "ty1": 0
+    }
+  ],
+  "transitions": [
+    "fade",
+    "slideLeft",
+    "zoom",
+    "blur"
+  ],
+  "brandTitle": "FRAMEFLOW · DEMO",
+  "chapterPrefix": "CHAPTER",
+  "chapterSuffix": "",
+  "chapterNumerals": [
+    "ONE",
+    "TWO",
+    "THREE",
+    "FOUR",
+    "FIVE",
+    "SIX"
+  ],
+  "quoteFallback": "SOURCE",
+  "audio": null,
+  "font": null,
+  "features": {
+    "seasonMotif": false,
+    "watermark": false,
+    "taiji": false,
+    "brandMark": true,
+    "chapterLabel": true,
+    "chapterSplash": true,
+    "sealStamp": false,
+    "quoteCard": true,
+    "particles": true,
+    "beatIndicator": true,
+    "progressBar": true,
+    "subtitle": true
+  }
+}

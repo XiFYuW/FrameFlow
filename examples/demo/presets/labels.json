@@ -1,0 +1,60 @@
+{
+  "scriptDoc": {
+    "title": "Transcript: {title}",
+    "duration": "Duration {duration} | FPS {fps}",
+    "chapter": "[Chapter {num} - {chapter}] {start} - {end}",
+    "tag": "({tag}) ",
+    "numerals": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "fallbackTitle": "Transcript"
+  },
+  "publish": {
+    "header": "[{title}] Publish Copy",
+    "dividerWidth": 28,
+    "headings": {
+      "titles": "-- Titles (pick one) --",
+      "content": "-- Body --",
+      "hashtags": "-- Hashtags --",
+      "cta": "-- Call to action --",
+      "copy": "-- Copy and paste (title + body + tags) --"
+    },
+    "titleWarning": "! Exceeds {limit} characters ({length})",
+    "maxTitle": 60,
+    "draft": {
+      "titleFirstLine": "{firstLine} | {series}",
+      "titleFromChapter": "{series}: starting with {chapter}",
+      "titleQuestion": "What is {keyword} in one video?",
+      "content": "{firstLine}. {series} covers {chapters}. {lastLine}. Follow for more.",
+      "cta": "Follow for the next episode",
+      "hashtags": [
+        "#video",
+        "#automation",
+        "#opensource"
+      ],
+      "chapterSeparator": ", "
+    },
+    "fallbacks": {
+      "series": "Video Series",
+      "keyword": "this topic",
+      "chapter": "the core idea",
+      "episodeTitle": "Untitled"
+    }
+  },
+  "files": {
+    "subtitles": "-subtitles.srt",
+    "script": "-script.txt",
+    "publishText": "-publish.txt",
+    "publishJson": "-publish.json",
+    "preview": "_preview.mp4"
+  }
+}
