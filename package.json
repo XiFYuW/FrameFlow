@@ -1,0 +1,35 @@
+{
+  "name": "frameflow",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Batch short-video pipeline: turn scripts, illustrations and music into MP4, subtitles, transcripts and publish copy",
+  "scripts": {
+    "start": "remotion studio",
+    "render": "remotion render FrameFlow out/frameflow.mp4",
+    "upgrade": "remotion upgrade",
+    "postinstall": "node scripts/init-content.mjs --if-missing",
+    "typecheck": "tsc --noEmit",
+    "setup": "node scripts/init-content.mjs",
+    "content:load": "node scripts/init-content.mjs --pack",
+    "pack:new": "node scripts/new-pack.mjs",
+    "pack:check": "node scripts/validate-content.mjs",
+    "skill:install": "node scripts/install-skill.mjs",
+    "switch": "node scripts/switch-episode.mjs",
+    "music": "node scripts/gen-music.mjs",
+    "export-sub": "node scripts/export-subtitles.mjs",
+    "publish-copy": "node scripts/gen-publish.mjs",
+    "deliver": "node scripts/deliver.mjs"
+  },
+  "dependencies": {
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "remotion": "4.0.532"
+  },
+  "devDependencies": {
+    "@remotion/cli": "4.0.532",
+    "@types/node": "^26.6.4",
+    "@types/react": "18.3.12",
+    "@types/react-dom": "18.3.1",
+    "typescript": "5.6.3"
+  }
+}
